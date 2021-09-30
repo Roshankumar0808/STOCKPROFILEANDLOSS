@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+    
+    background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
+}
+h1{
+    font-size:50px;
+    color:black;
+    border: black;
+    font-style: italic;
+}
+
+.container {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+h1 {
+    margin: 1em;
+}
+
+label {
+    color:white;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size:larger;
+}
+
+input {
+    font-size: 20px;
+    margin: 1em;
+    padding: 1em;
+    font-size: 0.8em;
+    width: 200px;
+    border:3px solid black;
+    box-shadow: 2px 5px black;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#check-btn {
+    width: 90px;
+    padding: 0.8em;
+    margin: 1em;
+    background-color: red;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#check-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#message {
+    margin: 1em;
+    font-size: larger;
+}
+
+.list-item-inline {
+    display: inline-block;
+}
+.footer {
+    /* border: brown;  */
+    border-radius: 15px;
+   font-size: 30px;
+   background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+   padding: 0rem 1rem;
+   text-align: center;
+   color: black;
+   border-top-right-radius: 1rem;
+   margin-top: 0rem;
+   padding-bottom: 5pt;
+}
+
+.footer .link {
+   /* color: white; */
+   font-size: 20px;
+    
+   
+
+}
+
+.footer .footer-header {
+   /* border: brown; */
+   border-radius: 15px;
+   font-weight: bold;
+    font-size: large; 
+    font-size: 30px;
+   /* background-color: ;  */
+
+} 
+
+footer ul {
+   /* border: brown; */
+   border-radius: 15px;
+   font-weight: bold;
+   font-size: large; */
+   font-size: 50px;
+   /* background-color: chartreuse;  */
+    padding-inline-start :20px; 
+} 
